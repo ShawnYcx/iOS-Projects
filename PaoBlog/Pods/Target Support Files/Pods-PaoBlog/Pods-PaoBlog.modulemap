@@ -1,0 +1,6 @@
+framework module Pods_PaoBlog {
+  umbrella header "Pods-PaoBlog-umbrella.h"
+
+  export *
+  module * { export * }
+}

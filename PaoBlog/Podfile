@@ -1,0 +1,33 @@
+# Uncomment this line to define a global platform for your project
+#platform :ios, '9.0'
+
+target 'PaoBlog' do
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods
+    # Firebase
+    pod 'Firebase'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Core'
+    
+    # Google Login
+    pod 'GoogleSignIn'
+    
+    # HUD
+    pod 'SVProgressHUD'
+    
+    # Textfield
+    #    pod 'SkyFloatingLabelTextField', git: 'https://github.com/Skyscanner/SkyFloatingLabelTextField'
+    #    pod 'FormTextField'
+
+    pod 'JSQMessagesViewController'
+    pod 'SDWebImage'
+    # pod 'QorumLogs' #Stable release for Swift 3.0
+    
+    ## Pods for future use
+    ##### Photo library asset picker ####
+    #  pod 'SwiftAssetsPickerController', '~> 0.3.2'
+end
