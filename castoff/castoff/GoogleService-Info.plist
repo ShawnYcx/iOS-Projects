@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>556857211268-4osbqmlnnb6i7694bipqetn1jf70dvej.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.556857211268-4osbqmlnnb6i7694bipqetn1jf70dvej</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeSmZnji14ixozyl1HFb6BFvJ4KsFnJf4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>556857211268</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>YStudio.Uploader</string>
+	<key>PROJECT_ID</key>
+	<string>kstore-8210a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kstore-8210a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:556857211268:ios:d21997adc03a4cf5</string>
+	<key>DATABASE_URL</key>
+	<string>https://kstore-8210a.firebaseio.com</string>
+</dict>
+</plist>

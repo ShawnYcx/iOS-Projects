@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325AA2573961E8045154365E /* Pods_castoffTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A807D2A51643B327BC8735D3 /* Pods_castoffTests.framework */; };
+		619CF7A91E80ACB100484580 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF7A81E80ACB100484580 /* Service.swift */; };
+		619CF7AB1E81A2C700484580 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF7AA1E81A2C700484580 /* CardView.swift */; };
+		619CF7AD1E820AB500484580 /* GalleryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF7AC1E820AB500484580 /* GalleryTableViewController.swift */; };
+		619CF7AF1E820B3000484580 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF7AE1E820B3000484580 /* GalleryCell.swift */; };
+		619CF7B21E820C8000484580 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619CF7B11E820C8000484580 /* Items.swift */; };
+		619EFB771E830FC2006FE1D2 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619EFB761E830FC2006FE1D2 /* ProductViewController.swift */; };
+		61CBF52D1E8444DA002DDECF /* UploadImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CBF52C1E8444DA002DDECF /* UploadImgViewController.swift */; };
+		61D2BE331E805CC100437B8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2BE321E805CC100437B8F /* AppDelegate.swift */; };
+		61D2BE351E805CC100437B8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2BE341E805CC100437B8F /* ViewController.swift */; };
+		61D2BE381E805CC100437B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D2BE361E805CC100437B8F /* Main.storyboard */; };
+		61D2BE3A1E805CC100437B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D2BE391E805CC100437B8F /* Assets.xcassets */; };
+		61D2BE3D1E805CC100437B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D2BE3B1E805CC100437B8F /* LaunchScreen.storyboard */; };
+		61D2BE481E805CC100437B8F /* castoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2BE471E805CC100437B8F /* castoffTests.swift */; };
+		61D2BE531E805CC100437B8F /* castoffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2BE521E805CC100437B8F /* castoffUITests.swift */; };
+		61D2BE611E805CEA00437B8F /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2BE601E805CEA00437B8F /* PaperOnboarding.framework */; };
+		61D2BE621E805CEA00437B8F /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61D2BE601E805CEA00437B8F /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61D2BE651E805D5B00437B8F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2BE641E805D5B00437B8F /* OnboardingView.swift */; };
+		61D2BE671E80ABE500437B8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61D2BE661E80ABE500437B8F /* GoogleService-Info.plist */; };
+		74EBC869162E29C25FB58A73 /* Pods_castoff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA929A4F41AC134302B9ADC5 /* Pods_castoff.framework */; };
+		AA29FEFBFB39D93FF0CA3B29 /* Pods_castoffUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1478A61DE29D2C9A55A03AD6 /* Pods_castoffUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61D2BE441E805CC100437B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D2BE271E805CC000437B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D2BE2E1E805CC000437B8F;
+			remoteInfo = castoff;
+		};
+		61D2BE4F1E805CC100437B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D2BE271E805CC000437B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D2BE2E1E805CC000437B8F;
+			remoteInfo = castoff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61D2BE631E805CEA00437B8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61D2BE621E805CEA00437B8F /* PaperOnboarding.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AA6CEA375039ACD2C647F69 /* Pods-castoff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-castoff/Pods-castoff.debug.xcconfig"; sourceTree = "<group>"; };
+		1478A61DE29D2C9A55A03AD6 /* Pods_castoffUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_castoffUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FF761A027DE2A174B6C1B /* Pods-castoffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoffTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-castoffTests/Pods-castoffTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3538A9306451D6BCAADF9AF8 /* Pods-castoffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoffTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-castoffTests/Pods-castoffTests.release.xcconfig"; sourceTree = "<group>"; };
+		619CF7A81E80ACB100484580 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		619CF7AA1E81A2C700484580 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		619CF7AC1E820AB500484580 /* GalleryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryTableViewController.swift; sourceTree = "<group>"; };
+		619CF7AE1E820B3000484580 /* GalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		619CF7B11E820C8000484580 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Items.swift; path = Model/Items.swift; sourceTree = "<group>"; };
+		619EFB761E830FC2006FE1D2 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		61CBF52C1E8444DA002DDECF /* UploadImgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImgViewController.swift; sourceTree = "<group>"; };
+		61D2BE2F1E805CC100437B8F /* castoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = castoff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2BE321E805CC100437B8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61D2BE341E805CC100437B8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61D2BE371E805CC100437B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61D2BE391E805CC100437B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61D2BE3C1E805CC100437B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61D2BE3E1E805CC100437B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D2BE431E805CC100437B8F /* castoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = castoffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2BE471E805CC100437B8F /* castoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = castoffTests.swift; sourceTree = "<group>"; };
+		61D2BE491E805CC100437B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D2BE4E1E805CC100437B8F /* castoffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = castoffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2BE521E805CC100437B8F /* castoffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = castoffUITests.swift; sourceTree = "<group>"; };
+		61D2BE541E805CC100437B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D2BE601E805CEA00437B8F /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
+		61D2BE641E805D5B00437B8F /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		61D2BE661E80ABE500437B8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6C27E8BF790FB18E36DAB1DF /* Pods-castoffUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoffUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-castoffUITests/Pods-castoffUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DCA74BF19771E2B930A5CFF /* Pods-castoff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoff.release.xcconfig"; path = "Pods/Target Support Files/Pods-castoff/Pods-castoff.release.xcconfig"; sourceTree = "<group>"; };
+		A807D2A51643B327BC8735D3 /* Pods_castoffTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_castoffTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF286944E1388EC8FDE81918 /* Pods-castoffUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-castoffUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-castoffUITests/Pods-castoffUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA929A4F41AC134302B9ADC5 /* Pods_castoff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_castoff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D2BE2C1E805CC000437B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D2BE611E805CEA00437B8F /* PaperOnboarding.framework in Frameworks */,
+				74EBC869162E29C25FB58A73 /* Pods_castoff.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE401E805CC100437B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325AA2573961E8045154365E /* Pods_castoffTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE4B1E805CC100437B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA29FEFBFB39D93FF0CA3B29 /* Pods_castoffUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619CF7A71E80AC9200484580 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				619CF7A81E80ACB100484580 /* Service.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		619CF7B01E820C7100484580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				619CF7B11E820C8000484580 /* Items.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		619CF7B31E820E6C00484580 /* UIView Objects */ = {
+			isa = PBXGroup;
+			children = (
+				619CF7AA1E81A2C700484580 /* CardView.swift */,
+				61D2BE641E805D5B00437B8F /* OnboardingView.swift */,
+			);
+			name = "UIView Objects";
+			sourceTree = "<group>";
+		};
+		619CF7B41E820E9300484580 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				619CF7AE1E820B3000484580 /* GalleryCell.swift */,
+				619CF7AC1E820AB500484580 /* GalleryTableViewController.swift */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		619CF7B51E820EAD00484580 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE391E805CC100437B8F /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		619CF7B61E820EB700484580 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE661E80ABE500437B8F /* GoogleService-Info.plist */,
+				61D2BE3E1E805CC100437B8F /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		619CF7B71E820FBB00484580 /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE341E805CC100437B8F /* ViewController.swift */,
+			);
+			name = onboarding;
+			sourceTree = "<group>";
+		};
+		61D2BE261E805CC000437B8F = {
+			isa = PBXGroup;
+			children = (
+				61D2BE601E805CEA00437B8F /* PaperOnboarding.framework */,
+				61D2BE311E805CC100437B8F /* castoff */,
+				61D2BE461E805CC100437B8F /* castoffTests */,
+				61D2BE511E805CC100437B8F /* castoffUITests */,
+				61D2BE301E805CC100437B8F /* Products */,
+				638DDC9D9FE991E6FE8F9B9B /* Pods */,
+				FC561965331F27A35C87B421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61D2BE301E805CC100437B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE2F1E805CC100437B8F /* castoff.app */,
+				61D2BE431E805CC100437B8F /* castoffTests.xctest */,
+				61D2BE4E1E805CC100437B8F /* castoffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D2BE311E805CC100437B8F /* castoff */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE321E805CC100437B8F /* AppDelegate.swift */,
+				61D2BE3B1E805CC100437B8F /* LaunchScreen.storyboard */,
+				61D2BE361E805CC100437B8F /* Main.storyboard */,
+				619CF7B41E820E9300484580 /* MainPage */,
+				619CF7B01E820C7100484580 /* Model */,
+				619CF7B71E820FBB00484580 /* onboarding */,
+				619CF7B61E820EB700484580 /* Others */,
+				619EFB761E830FC2006FE1D2 /* ProductViewController.swift */,
+				619CF7B51E820EAD00484580 /* Resources */,
+				619CF7A71E80AC9200484580 /* Service */,
+				619CF7B31E820E6C00484580 /* UIView Objects */,
+				61CBF52C1E8444DA002DDECF /* UploadImgViewController.swift */,
+			);
+			path = castoff;
+			sourceTree = "<group>";
+		};
+		61D2BE461E805CC100437B8F /* castoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE471E805CC100437B8F /* castoffTests.swift */,
+				61D2BE491E805CC100437B8F /* Info.plist */,
+			);
+			path = castoffTests;
+			sourceTree = "<group>";
+		};
+		61D2BE511E805CC100437B8F /* castoffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61D2BE521E805CC100437B8F /* castoffUITests.swift */,
+				61D2BE541E805CC100437B8F /* Info.plist */,
+			);
+			path = castoffUITests;
+			sourceTree = "<group>";
+		};
+		638DDC9D9FE991E6FE8F9B9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6CEA375039ACD2C647F69 /* Pods-castoff.debug.xcconfig */,
+				6DCA74BF19771E2B930A5CFF /* Pods-castoff.release.xcconfig */,
+				236FF761A027DE2A174B6C1B /* Pods-castoffTests.debug.xcconfig */,
+				3538A9306451D6BCAADF9AF8 /* Pods-castoffTests.release.xcconfig */,
+				6C27E8BF790FB18E36DAB1DF /* Pods-castoffUITests.debug.xcconfig */,
+				AF286944E1388EC8FDE81918 /* Pods-castoffUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC561965331F27A35C87B421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA929A4F41AC134302B9ADC5 /* Pods_castoff.framework */,
+				A807D2A51643B327BC8735D3 /* Pods_castoffTests.framework */,
+				1478A61DE29D2C9A55A03AD6 /* Pods_castoffUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D2BE2E1E805CC000437B8F /* castoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D2BE571E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoff" */;
+			buildPhases = (
+				467EFD39A53B65D813050F02 /* [CP] Check Pods Manifest.lock */,
+				61D2BE2B1E805CC000437B8F /* Sources */,
+				61D2BE2C1E805CC000437B8F /* Frameworks */,
+				61D2BE2D1E805CC000437B8F /* Resources */,
+				61D2BE631E805CEA00437B8F /* Embed Frameworks */,
+				6E280E69DD8E701126E8706D /* [CP] Embed Pods Frameworks */,
+				D6C72C5F4E6821D09DD2DDA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = castoff;
+			productName = castoff;
+			productReference = 61D2BE2F1E805CC100437B8F /* castoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61D2BE421E805CC100437B8F /* castoffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D2BE5A1E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoffTests" */;
+			buildPhases = (
+				CB470046B2FE47BEBD2FE197 /* [CP] Check Pods Manifest.lock */,
+				61D2BE3F1E805CC100437B8F /* Sources */,
+				61D2BE401E805CC100437B8F /* Frameworks */,
+				61D2BE411E805CC100437B8F /* Resources */,
+				7711CDE261D6ADFF95B715C0 /* [CP] Embed Pods Frameworks */,
+				B0D03081679B1F45571EA145 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D2BE451E805CC100437B8F /* PBXTargetDependency */,
+			);
+			name = castoffTests;
+			productName = castoffTests;
+			productReference = 61D2BE431E805CC100437B8F /* castoffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61D2BE4D1E805CC100437B8F /* castoffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D2BE5D1E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoffUITests" */;
+			buildPhases = (
+				8F0F6030E09933D95ED20650 /* [CP] Check Pods Manifest.lock */,
+				61D2BE4A1E805CC100437B8F /* Sources */,
+				61D2BE4B1E805CC100437B8F /* Frameworks */,
+				61D2BE4C1E805CC100437B8F /* Resources */,
+				C68F6967BDE481164B198C69 /* [CP] Embed Pods Frameworks */,
+				3101337C1CAE0AC0B810C992 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D2BE501E805CC100437B8F /* PBXTargetDependency */,
+			);
+			name = castoffUITests;
+			productName = castoffUITests;
+			productReference = 61D2BE4E1E805CC100437B8F /* castoffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D2BE271E805CC000437B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YStudio;
+				TargetAttributes = {
+					61D2BE2E1E805CC000437B8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K23SKZ829;
+						ProvisioningStyle = Automatic;
+					};
+					61D2BE421E805CC100437B8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K23SKZ829;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61D2BE2E1E805CC000437B8F;
+					};
+					61D2BE4D1E805CC100437B8F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7K23SKZ829;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61D2BE2E1E805CC000437B8F;
+					};
+				};
+			};
+			buildConfigurationList = 61D2BE2A1E805CC000437B8F /* Build configuration list for PBXProject "castoff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61D2BE261E805CC000437B8F;
+			productRefGroup = 61D2BE301E805CC100437B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D2BE2E1E805CC000437B8F /* castoff */,
+				61D2BE421E805CC100437B8F /* castoffTests */,
+				61D2BE4D1E805CC100437B8F /* castoffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D2BE2D1E805CC000437B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D2BE671E80ABE500437B8F /* GoogleService-Info.plist in Resources */,
+				61D2BE3D1E805CC100437B8F /* LaunchScreen.storyboard in Resources */,
+				61D2BE3A1E805CC100437B8F /* Assets.xcassets in Resources */,
+				61D2BE381E805CC100437B8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE411E805CC100437B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE4C1E805CC100437B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3101337C1CAE0AC0B810C992 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoffUITests/Pods-castoffUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467EFD39A53B65D813050F02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E280E69DD8E701126E8706D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoff/Pods-castoff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7711CDE261D6ADFF95B715C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoffTests/Pods-castoffTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0F6030E09933D95ED20650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D03081679B1F45571EA145 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoffTests/Pods-castoffTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68F6967BDE481164B198C69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoffUITests/Pods-castoffUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB470046B2FE47BEBD2FE197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6C72C5F4E6821D09DD2DDA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-castoff/Pods-castoff-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D2BE2B1E805CC000437B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619CF7AD1E820AB500484580 /* GalleryTableViewController.swift in Sources */,
+				619CF7AF1E820B3000484580 /* GalleryCell.swift in Sources */,
+				61D2BE351E805CC100437B8F /* ViewController.swift in Sources */,
+				61CBF52D1E8444DA002DDECF /* UploadImgViewController.swift in Sources */,
+				619CF7A91E80ACB100484580 /* Service.swift in Sources */,
+				61D2BE651E805D5B00437B8F /* OnboardingView.swift in Sources */,
+				619CF7B21E820C8000484580 /* Items.swift in Sources */,
+				619EFB771E830FC2006FE1D2 /* ProductViewController.swift in Sources */,
+				61D2BE331E805CC100437B8F /* AppDelegate.swift in Sources */,
+				619CF7AB1E81A2C700484580 /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE3F1E805CC100437B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D2BE481E805CC100437B8F /* castoffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D2BE4A1E805CC100437B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D2BE531E805CC100437B8F /* castoffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61D2BE451E805CC100437B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D2BE2E1E805CC000437B8F /* castoff */;
+			targetProxy = 61D2BE441E805CC100437B8F /* PBXContainerItemProxy */;
+		};
+		61D2BE501E805CC100437B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D2BE2E1E805CC000437B8F /* castoff */;
+			targetProxy = 61D2BE4F1E805CC100437B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61D2BE361E805CC100437B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D2BE371E805CC100437B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61D2BE3B1E805CC100437B8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D2BE3C1E805CC100437B8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61D2BE551E805CC100437B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D2BE561E805CC100437B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D2BE581E805CC100437B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA6CEA375039ACD2C647F69 /* Pods-castoff.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = castoff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61D2BE591E805CC100437B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCA74BF19771E2B930A5CFF /* Pods-castoff.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = castoff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61D2BE5B1E805CC100437B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236FF761A027DE2A174B6C1B /* Pods-castoffTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				INFOPLIST_FILE = castoffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/castoff.app/castoff";
+			};
+			name = Debug;
+		};
+		61D2BE5C1E805CC100437B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3538A9306451D6BCAADF9AF8 /* Pods-castoffTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				INFOPLIST_FILE = castoffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/castoff.app/castoff";
+			};
+			name = Release;
+		};
+		61D2BE5E1E805CC100437B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C27E8BF790FB18E36DAB1DF /* Pods-castoffUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				INFOPLIST_FILE = castoffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = castoff;
+			};
+			name = Debug;
+		};
+		61D2BE5F1E805CC100437B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF286944E1388EC8FDE81918 /* Pods-castoffUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7K23SKZ829;
+				INFOPLIST_FILE = castoffUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YStudio.castoffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = castoff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D2BE2A1E805CC000437B8F /* Build configuration list for PBXProject "castoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2BE551E805CC100437B8F /* Debug */,
+				61D2BE561E805CC100437B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D2BE571E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2BE581E805CC100437B8F /* Debug */,
+				61D2BE591E805CC100437B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D2BE5A1E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2BE5B1E805CC100437B8F /* Debug */,
+				61D2BE5C1E805CC100437B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D2BE5D1E805CC100437B8F /* Build configuration list for PBXNativeTarget "castoffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D2BE5E1E805CC100437B8F /* Debug */,
+				61D2BE5F1E805CC100437B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D2BE271E805CC000437B8F /* Project object */;
+}
